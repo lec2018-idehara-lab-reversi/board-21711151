@@ -51,8 +51,10 @@ void showBan(int[][] b)
         case AKI:
           break;
         case KURO:
+        ellipse(round(80*(x-0.5)),round(80*(y-0.5)),72,72);
           break;
         case SHIRO:
+        ellipse(round(80*(x-0.5)),round(80*(y-0.5)),72,72);
           break;
       }
     }
